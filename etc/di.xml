@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2011-2018 Karliuka Vitalii(karliuka.vitalii@gmail.com)
+ * 
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<!--
+	ReCaptcha form config
+	-->	
+    <virtualType name="Faonni\ReCaptcha\Model\Form\FormConfig">
+        <arguments>
+            <argument name="config" xsi:type="array">
+                <item name="company_account_create" xsi:type="array">
+                    <item name="label" xsi:type="string">Create Company</item>
+                    <item name="handle" xsi:type="string">recaptcha_form_additional_info</item>
+                    <item name="post" xsi:type="string">company_account_createpost</item>
+                </item>
+			</argument>	
+        </arguments>
+    </virtualType>	
+</config> 
