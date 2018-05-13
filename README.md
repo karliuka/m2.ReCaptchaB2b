@@ -1,8 +1,5 @@
 # Magento2 ReCaptchaB2b
 
-[![Total Downloads](https://poser.pugx.org/faonni/module-re-captcha-b2b/downloads)](https://packagist.org/packages/faonni/module-re-captcha-b2b)
-[![Latest Stable Version](https://poser.pugx.org/faonni/module-re-captcha-b2b/v/stable)](https://packagist.org/packages/faonni/module-re-captcha-b2b)
-
 Extension is integrate Google Recaptcha with B2B Extension your Magento2 store.
 
 ### New Company page
