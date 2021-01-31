@@ -2,15 +2,13 @@
 
 Extension is integrate Google Recaptcha with B2B Extension your Magento2 store.
 
-### New Company page
-
-<img alt="Magento2 ReCaptchaB2b" src="https://karliuka.github.io/m2/re-captcha-b2b/createCompany.png" style="width:100%"/>
-
 ## Compatibility
 
-Magento EE 2.2.x
+Magento EE 2.2.x, 2.3.x, 2.4.x
 
 ## Install
+
+Before installation, you need to install the [ReCaptcha](https://github.com/karliuka/m2.ReCaptcha) module
 
 #### Install via Composer (recommend)
 
@@ -19,42 +17,38 @@ Magento EE 2.2.x
 2. Enter following commands to install module:
 
     ```bash
-    composer require faonni/module-re-captcha-b2b
+    composer faonni/module-re-captcha-b2b
     ```
    Wait while dependencies are updated.
-   
+
 #### Manual Installation
-   
-1. Install [ReCaptcha](https://github.com/karliuka/m2.ReCaptcha)
-   
-2. Create a folder {Magento root}/app/code/Faonni/ReCaptchaB2b
 
-3. Download the corresponding [latest version](https://github.com/karliuka/m2.ReCaptchaB2b/releases)
+1. Create a folder {Magento root}/app/code/Faonni/ReCaptchaB2b
 
-4. Copy the unzip content to the folder ({Magento root}/app/code/Faonni/ReCaptchaB2b)
+2. Download the corresponding [latest version](https://github.com/karliuka/m2.ReCaptchaB2b/releases)
 
-### Completion of installation
+3. Copy the unzip content to the folder ({Magento root}/app/code/Faonni/ReCaptchaB2b)
+
+#### Completion of installation
 
 1. Go to Magento2 root folder
 
 2. Enter following commands:
 
     ```bash
-	php bin/magento setup:upgrade
-	php bin/magento setup:di:compile
-	php bin/magento setup:static-content:deploy  (optional)
+    php bin/magento setup:upgrade
+    php bin/magento setup:di:compile
+    php bin/magento setup:static-content:deploy  (optional)
+    ```
+### New Company page
 
-### Configuration Frontend
-
-In the Magento Admin Panel go to *Stores > Configuration > Customers > Customer Configuration > ReCAPTCHA*.
-
-<img alt="Magento2 ReCaptchaB2b" src="https://karliuka.github.io/m2/re-captcha-b2b/config.png" style="width:100%"/>
+<img alt="Magento2 ReCaptchaB2b" src="https://karliuka.github.io/m2/re-captcha-b2b/createCompany.png" style="width:100%"/>
 
 ## Uninstall
 This works only with modules defined as Composer packages.
 
 #### Remove Extension
-    
+
 1. Go to Magento2 root folder
 
 2. Enter following commands to remove:
@@ -62,7 +56,6 @@ This works only with modules defined as Composer packages.
     ```bash
     composer remove faonni/module-re-captcha-b2b
     ```
-
 ### Completion of uninstall
 
 1. Go to Magento2 root folder
@@ -70,9 +63,7 @@ This works only with modules defined as Composer packages.
 2. Enter following commands:
 
     ```bash
-	php bin/magento setup:upgrade
-	php bin/magento setup:di:compile
-	php bin/magento setup:static-content:deploy  (optional)
-
-
-
+    php bin/magento setup:upgrade
+    php bin/magento setup:di:compile
+    php bin/magento setup:static-content:deploy  (optional)
+    ```
