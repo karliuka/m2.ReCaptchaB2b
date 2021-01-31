@@ -2,7 +2,7 @@
     "name": "faonni/module-re-captcha-b2b",
     "description": "Extension is integrate Google Recaptcha with B2B Extension your Magento2 store.",
     "type": "magento2-module",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "authors": [{
         "name": "Karliuka Vitalii",
         "email": "karliuka.vitalii@gmail.com"
@@ -12,7 +12,7 @@
     ],
     "require": {
         "faonni/module-re-captcha": "^2.0",
-        "magento/module-company": "100.0.*"
+        "magento/module-company": "100.0.*|100.1.*|101.1.*"
     },
     "autoload": {
         "files": [ 
