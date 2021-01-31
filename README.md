@@ -56,7 +56,7 @@ This works only with modules defined as Composer packages.
     ```bash
     composer remove faonni/module-re-captcha-b2b
     ```
-### Completion of uninstall
+#### Completion of uninstall
 
 1. Go to Magento2 root folder
 
